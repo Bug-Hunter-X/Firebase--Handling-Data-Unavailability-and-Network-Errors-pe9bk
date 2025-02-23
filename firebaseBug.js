@@ -1,0 +1,1 @@
+The Firebase SDK might throw an error if the data you are trying to access is not available or if there is a network issue.  For example, if you try to access a document in Firestore that doesn't exist, you'll get an error.  Also, if your app goes offline, any attempts to read or write data will fail.  The error messages can be cryptic, so careful debugging is necessary.
